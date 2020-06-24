@@ -134,3 +134,13 @@ button:active {
 code {
   font-family: 'Source Code Pro', monospace;
 }
+
+@media screen and (max-width: 780px) {
+  button {
+    width: 100%;
+    font-size: .8rem;
+  }
+  main {
+    width: 80vw;
+  }
+}
