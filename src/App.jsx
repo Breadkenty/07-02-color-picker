@@ -57,7 +57,7 @@ class App extends Component {
                 #33833d
               </p>
               <p>
-                hsl({this.state.hue}, {this.state.saturation}%,{' '}
+                hsla({this.state.hue}, {this.state.saturation}%,{' '}
                 {this.state.lightness}%, {this.state.opacity})
               </p>
             </div>
