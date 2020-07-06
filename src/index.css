@@ -143,4 +143,7 @@ code {
   main {
     width: 80vw;
   }
+  .copy-to-clipboard img {
+    width: 100%;
+  }
 }

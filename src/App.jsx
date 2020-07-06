@@ -53,10 +53,9 @@ class App extends Component {
                 ${this.state.lightness}%, ${this.state.opacity})`,
               }}
             >
-              <p style={{ color: `'${this.changeHueBasedOnLightness}'` }}>
-                #33833d
-              </p>
-              <p>
+              <p
+                style={{ color: this.state.lightness < 50 ? 'white' : 'black' }}
+              >
                 hsla({this.state.hue}, {this.state.saturation}%,{' '}
                 {this.state.lightness}%, {this.state.opacity})
               </p>
