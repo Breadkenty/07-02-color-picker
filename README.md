@@ -1,6 +1,27 @@
 # 07-02 Color Picker
 
+<img src="header.png" width="500">
+
 Visit the live site: https://07-02-color-picker-kento.netlify.com/
+
+An app that allows you to find the `hsla` code for a color selected. Some of the features include:
+
+- Select a color by
+  - Hue
+  - Saturation
+  - Lightness
+  - Opacity
+- Select a random color (at 100% opacity)
+
+Technologies used:
+
+- React using class components
+- Javascript
+- HTML/CSS
+
+The color picker exercises the skills of using react class components. This project demonstrates the use of live changes of the DOM using React states. By incorporating Javascript code that calculates the values for `hsla` attributes, React simplifies the manipulation of the DOM.
+
+---
 
 _Note:_
 
